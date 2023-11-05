@@ -561,6 +561,8 @@ function onTouchStart(e) {
 }
 
 function newGame() {
+  lander.thrust(100);
+  lander.thrust(0);
   lander.fuel = 1000;
 
   time = 0;

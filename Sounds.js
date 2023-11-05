@@ -95,7 +95,7 @@ var samples = jsfxlib.createWaves(audioLibParams);
 //samples.test.play();
 //samples.explosion.play();
 //samples.thruster.loop = true;
-//samples.thruster.play();
+// samples.thruster.play();
 
 samples.beep.volume = 0.3;
 var thrustSound = samples.thruster;
@@ -104,7 +104,7 @@ var thrustPlaying = false;
 var thrustVolume = 0;
 var thrustTargetVolume = 0;
 
-//playThruster();
+// playThruster();
 
 function setThrustVolume(vol) {
   thrustTargetVolume = vol;
