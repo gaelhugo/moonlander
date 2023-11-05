@@ -159,7 +159,7 @@ Lander = function () {
     // 	c.lineTo(bottomRight.x, bottomRight.y);
     // 	c.stroke();
     //
-    this.colour = "rgb(180,255,238)"; // "white";
+    this.colour = "rgb(0,255,0)"; // "white";
   };
   this.crash = function () {
     this.rotation = targetRotation = 0;

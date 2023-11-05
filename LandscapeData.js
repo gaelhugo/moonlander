@@ -118,7 +118,7 @@ function Landscape() {
       c.strokeStyle = "rgb(" + channel + "," + channel + "," + channel + ")";
       c.stroke();
     }
-    c.strokeStyle = "rgb(180,255,238)";
+    c.strokeStyle = "rgb(0,255,0)";
 
     c.lineWidth = (1 / view.scale) * (flickerAmount * 0.2 + 0.8);
     c.lineJoin = "bevel";
