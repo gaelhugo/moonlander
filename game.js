@@ -561,6 +561,7 @@ function onTouchStart(e) {
 }
 
 function newGame() {
+  samples.thruster.play();
   lander.thrust(100);
   lander.thrust(0);
   lander.fuel = 1000;
