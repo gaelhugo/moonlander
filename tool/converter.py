@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 # Load the SVG file
-svg_file = "AJ1_LUNAR_LANDER_TARCING.svg"
+svg_file = "AJ1_LUNAR_LANDER_TARCING_02.svg"
 tree = ET.parse(svg_file)
 root = tree.getroot()
 
