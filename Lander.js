@@ -36,7 +36,7 @@ Lander = function () {
     abortCounter = -1;
     lastAbort = Date.now();
     vel.reset(0.415, 0);
-    pos.reset(310, 50);
+    pos.reset(310, 30);
     this.rotation = targetRotation = -90;
     scale = 1;
     thrustBuild = 0;

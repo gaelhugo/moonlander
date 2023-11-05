@@ -21,7 +21,8 @@ var SCREEN_WIDTH = window.innerWidth,
   startKey = " ",
   selectKey = "",
   abortKey = "",
-  startMessage = "INSERT COINS<br><br>CLICK TO PLAY<br>ARROW KEYS TO MOVE",
+  startMessage =
+    "JORDAN PROTOTYPE LANDER<br><br>CLICK TO PLAY<br>ARROW KEYS TO MOVE",
   singlePlayMode = false, // for arcade machine
   lastMouseMove = Date.now(),
   lastMouseHide = 0,
@@ -234,7 +235,7 @@ function loop() {
     // sendPosition();
   }
 
-  if (gameState == WAITING && lander.altitude < 100) {
+  if (gameState == WAITING && lander.altitude < 0 /*100 */) {
     gameState = GAMEOVER;
     restartLevel();
   }
