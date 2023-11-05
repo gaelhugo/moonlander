@@ -561,8 +561,6 @@ function onTouchStart(e) {
 }
 
 function newGame() {
-  samples.explosion.play();
-
   lander.fuel = 1000;
 
   time = 0;
@@ -593,6 +591,7 @@ function restartLevel() {
     sendRestart();
     infoDisplay.hideGameInfo();
   }
+  samples.explosion.play();
 }
 function checkCollisions() {
   var lines = landscape.lines,
