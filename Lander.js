@@ -26,7 +26,7 @@ Lander = function () {
   this.right = 0;
   this.bottom = 0;
   this.top = 0;
-  this.colour = "white";
+  this.colour = "rgb(180,255,238)"; //"white";
   var shapes = (this.shapes = []),
     shapePos = (this.shapePos = []),
     shapeVels = (this.shapeVels = []);
@@ -159,7 +159,7 @@ Lander = function () {
     // 	c.lineTo(bottomRight.x, bottomRight.y);
     // 	c.stroke();
     //
-    this.colour = "white";
+    this.colour = "rgb(180,255,238)"; // "white";
   };
   this.crash = function () {
     this.rotation = targetRotation = 0;
