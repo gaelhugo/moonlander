@@ -390,7 +390,7 @@ function Landscape() {
     points.push(new Vector2(178.0, 115.0));
     points.push(new Vector2(196.0, 115.0));
     points.push(new Vector2(200.5, 106.0));
-    points.push(new Vector2(206.9, 106.0));
+    points.push(new Vector2(213, 106.0));
     points.push(new Vector2(218.9, 130.0));
     points.push(new Vector2(221.9, 141.0));
     points.push(new Vector2(221.9, 144.0));
@@ -786,7 +786,7 @@ function Landscape() {
     availableZones.push(new LandingZone(15, 10));
     availableZones.push(new LandingZone(20, 2));
     availableZones.push(new LandingZone(22, 5));
-    availableZones.push(new LandingZone(34, 4));
+    availableZones.push(new LandingZone(34, 10));
     availableZones.push(new LandingZone(47, 2));
     availableZones.push(new LandingZone(60, 2));
     availableZones.push(new LandingZone(63, 2));
@@ -794,13 +794,14 @@ function Landscape() {
 
     // DEFINI LES ZONES D'ATTERISSAGE POSSIBLE POUR LE JEU. LE MAX INDEX CORRESPOND AUX NOMBRES DE "PLATEAUX"
     zoneCombis.push([0, 1, 2, 3, 4, 5, 6, 7, 8]);
-    // zoneCombis.push([2, 3, 7, 9]);
-    // zoneCombis.push([7, 8, 9, 10]);
-    // zoneCombis.push([2, 3, 7, 9]);
-    // zoneCombis.push([1, 4, 7, 9]);
-    // zoneCombis.push([0, 5, 7, 9]);
-    // zoneCombis.push([6, 7, 8, 9]);
-    // zoneCombis.push([1, 4, 7, 9]);
+    // zoneCombis.push([0, 1, 2, 3]);
+    // zoneCombis.push([2, 3, 7, 8]);
+    // zoneCombis.push([7, 8, 7, 8]);
+    // zoneCombis.push([2, 3, 7, 8]);
+    // zoneCombis.push([1, 4, 7, 8]);
+    // zoneCombis.push([0, 5, 7, 8]);
+    // zoneCombis.push([6, 7, 8, 8]);
+    // zoneCombis.push([1, 4, 7, 8]);
   }
 }
 

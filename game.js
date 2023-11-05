@@ -478,7 +478,7 @@ function setLanded(line) {
     infoDisplay.showGameInfo(
       "CONGRATULATIONS<br>A PERFECT LANDING\n" + points + " POINTS"
     );
-    lander.fuel += 50;
+    lander.fuel += 50 * multiplier;
   } else {
     points = 15 * multiplier;
     // YOU LANDED HARD
