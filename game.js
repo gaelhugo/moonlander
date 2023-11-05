@@ -591,9 +591,9 @@ function restartLevel() {
     sendRestart();
     infoDisplay.hideGameInfo();
   }
-  setTimeout(() => {
-    samples.explosion.play();
-  }, 100);
+  // setTimeout(() => {
+  //   samples.explosion.play();
+  // }, 100);
 }
 function checkCollisions() {
   var lines = landscape.lines,
