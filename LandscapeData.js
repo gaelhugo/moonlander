@@ -1561,19 +1561,19 @@ function Landscape() {
 
     // LES ZONES D'ATTERRISSAGE. LE POINT DE DEPART DU PLATEAU EST L'INDEX DU PREMIER POINT
     // availableZones.push(new LandingZone(769, 2));
-    availableZones.push(new LandingZone(14, 10));
+    availableZones.push(new LandingZone(14, 45));
     availableZones.push(new LandingZone(19, 2));
-    availableZones.push(new LandingZone(21, 2));
+    availableZones.push(new LandingZone(21, 3));
     // availableZones.push(new LandingZone(22, 5));
-    availableZones.push(new LandingZone(33, 10));
+    availableZones.push(new LandingZone(33, 23));
     availableZones.push(new LandingZone(46, 2));
     // availableZones.push(new LandingZone(59, 2));
     availableZones.push(new LandingZone(62, 2));
-    availableZones.push(new LandingZone(346, 2));
+    availableZones.push(new LandingZone(346, 6));
     availableZones.push(new LandingZone(349, 2));
-    availableZones.push(new LandingZone(371, 8));
+    availableZones.push(new LandingZone(371, 6));
     availableZones.push(new LandingZone(427, 2));
-    availableZones.push(new LandingZone(435, 2));
+    availableZones.push(new LandingZone(435, 3));
     // availableZones.push(new LandingZone(0, 2));
 
     // DEFINI LES ZONES D'ATTERISSAGE POSSIBLE POUR LE JEU. LE MAX INDEX CORRESPOND AUX NOMBRES DE "PLATEAUX"
