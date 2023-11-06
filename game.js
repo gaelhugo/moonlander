@@ -605,14 +605,15 @@ function checkCollisions() {
     right += landscape.tileWidth;
     left += landscape.tileWidth;
   }
-
+  let previousY = 600;
   for (var i = 0; i < lines.length; i++) {
     line = lines[i];
     line.checked = false;
     // if the ship overlaps this line
-    if (!(right < line.p1.x || left > line.p2.x)) {
+    if (!(right < line.p1.x || left > line.p2.x) && line.p1.y <= previousY) {
       lander.altitude = line.p1.y - lander.bottom;
       line.checked = true;
+      previousY = line.p1.y;
 
       // if the line's horizontal
       if (line.landable) {

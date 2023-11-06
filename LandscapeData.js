@@ -1571,13 +1571,15 @@ function Landscape() {
     availableZones.push(new LandingZone(62, 2));
     availableZones.push(new LandingZone(346, 2));
     availableZones.push(new LandingZone(349, 2));
-    availableZones.push(new LandingZone(371, 2));
+    availableZones.push(new LandingZone(371, 8));
     availableZones.push(new LandingZone(427, 2));
     availableZones.push(new LandingZone(435, 2));
     // availableZones.push(new LandingZone(0, 2));
 
     // DEFINI LES ZONES D'ATTERISSAGE POSSIBLE POUR LE JEU. LE MAX INDEX CORRESPOND AUX NOMBRES DE "PLATEAUX"
     zoneCombis.push([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+    // zoneCombis.push([4, 5, 6, 7]);
+    // zoneCombis.push([8, 9, 10]);
     // zoneCombis.push([0, 1, 2, 3]);
     // zoneCombis.push([2, 3, 7, 8]);
     // zoneCombis.push([7, 8, 7, 8]);
