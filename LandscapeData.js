@@ -1132,8 +1132,8 @@ function Landscape() {
     points.push(new Vector2(328.1, 364.0));
     points.push(new Vector2(327.4, 365.9));
     points.push(new Vector2(329.9, 372.0));
-    points.push(new Vector2(329.9, 372.0));
-    points.push(new Vector2(334.6, 372.0));
+    // points.push(new Vector2(329.9, 372.0));
+    // points.push(new Vector2(334.6, 372.0));
     points.push(new Vector2(343.0, 372.0));
     points.push(new Vector2(349.0, 357.0));
     points.push(new Vector2(356.0, 351.0));
@@ -1570,11 +1570,11 @@ function Landscape() {
     availableZones.push(new LandingZone(46, 2));
     // availableZones.push(new LandingZone(59, 2));
     availableZones.push(new LandingZone(62, 2));
-    availableZones.push(new LandingZone(346, 6));
-    availableZones.push(new LandingZone(349, 2));
-    availableZones.push(new LandingZone(371, 6));
-    availableZones.push(new LandingZone(427, 2));
-    availableZones.push(new LandingZone(435, 3));
+    availableZones.push(new LandingZone(344, 6));
+    availableZones.push(new LandingZone(347, 2));
+    availableZones.push(new LandingZone(369, 6));
+    availableZones.push(new LandingZone(425, 2));
+    availableZones.push(new LandingZone(433, 3));
     // availableZones.push(new LandingZone(769, 84));
     // availableZones.push(new LandingZone(0, 84));
 
